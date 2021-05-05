@@ -122,3 +122,10 @@ cheks.forEach(item => {
       item.classList.toggle('active');
    });
 });
+
+
+const config = document.querySelector('.profile__config');
+
+config.addEventListener('click', (event) => {
+   config.classList.toggle('active');
+})
